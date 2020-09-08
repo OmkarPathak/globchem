@@ -135,7 +135,7 @@ $category = mysqli_query($conn, $sql);
                             echo ' <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                                         <div class="member">
                                             <div class="member-img content">
-                                                <a href="product_details.php?'.$row['category_id'].'">   
+                                                <a href="product_details.php?id='.$row['category_id'].'">   
                                                     <div class="content-overlay"></div>
                                                     <img src="admin/uploads/category/'.$row['category_icon'].'" class="img-fluid content-image" alt="">
                                                     <div class="content-details fadeIn-top">

@@ -66,7 +66,7 @@ if(isset($_GET['id']))
                 <div class="col-md-12 col-sm-12 col-lg-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Edit Product <small>configure products</small></h2>
+                            <h2>Edit Product <small>Configure Products</small></h2>
                            <!--  <button type="button" class="btn btn-primary" style="float: right;" onclick="location.href='user_demo_mapping.php';">User Demo Mapping</button> -->
                             <div class="clearfix"></div>
                         </div>
@@ -95,10 +95,11 @@ if(isset($_GET['id']))
                                             </div>
                                             <input type="file" name= "files[]" id="profile-img" style="margin-top: 3%" multiple>
 
-                                            <button class="btn btn-danger" type="reset">Reset</button>
-                                            <button type="submit" value="submit" id="btn_edit_products" name="btn_edit_products" class="btn btn-primary" style="margin-top: 3%">Update</button>
-                                                    
-                                            <button type="button" value="button" onclick="goBack()" class="btn btn-danger" style="margin-top: 3%">Back</button>
+                                            <div>
+                                                <!-- <button class="btn btn-danger" type="reset" style="margin-top: 3%">Reset</button> -->
+                                                <button type="submit" value="submit" id="btn_edit_products" name="btn_edit_products" class="btn btn-primary" style="margin-top: 3%">Update</button>       
+                                                <button type="button" value="button" onclick="goBack()" class="btn btn-danger" style="margin-top: 3%">Back</button>
+                                            </div>
                                         </div>
                                    
                                         <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
@@ -146,25 +147,15 @@ if(isset($_GET['id']))
                                                 </select>
                                             </div>
 
-                                           
-
-
                                             <div class="col-md-12 col-sm-12  form-group has-feedback">
-                                                <?php
-                                                    print_r($products);
-                                                    while($row = mysqli_fetch_array($products)){
-                                                        echo ($row1["product_usage"]); 
-                                                        echo '<textarea class="form-control summernote_textarea" id="product_usage2" name="product_usage2" value="' . $row1["product_usage"] . '"></textarea>';
-                                                    
-                                                    }    
-                                                ?>
+                                            <b class="clearfix">Product Usage:</b>
+                                                <textarea class="form-control summernote_textarea" id="product_usage2" name="product_usage2"></textarea>
                                             </div>
 
                                             <div class="col-md-12 col-sm-12  form-group has-feedback">
                                                 <b class="clearfix">Product Features:</b>
                                                 <textarea class="form-control summernote_textarea" id="product_features2" name="product_features2"></textarea>
-                                            </div>  
-                                            
+                                            </div>   
 
                                             <div class="col-md-12 col-sm-12  form-group has-feedback">
                                                 <!-- <b class="clearfix">Video Link:</b> -->
@@ -243,27 +234,12 @@ include('footer.php');
     });
 </script>
 
-
-<!-- <script type="text/javascript">
-   
-
-    $(document).ready(function() {
-        $('.summernote_textarea').summernote({
-            toolbar: [
-               ['style', ['style']],
-               ['font', ['bold', 'underline', 'clear']],
-               ['para', ['ul', 'ol', 'paragraph']]
-              
-            ]
-        });
-    });
-</script> -->
-<!-- <script>
+<script>
 $(document).ready(function(){
 
     var product_id = <?php echo $product_id; ?>;
 
-    console.log(product_id)
+    console.log(product_id);
     
     $.ajax({
             url:'fetch_records.php',
@@ -274,16 +250,38 @@ $(document).ready(function(){
                 console.log(data);
                 $('#product_id2').val(data.product_id);
                 $('#product_name2').val(data.product_name);
-                $('#product_desc2').val(data.product_desc);
+                // $('#product_desc2').val(data.product_desc);
+                $('#product_desc2').summernote({
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['para', ['ul', 'ol', 'paragraph']]
+                    ]
+                }).summernote('code', data.product_desc);
                 $('#category_name2').val(data.category_id);
-                $('#product_usage2').val(data.product_usage);
-                $('#product_features2').val(data.product_features);
+                // $('#product_usage2').val(data.product_usage);
+                $('#product_usage2').summernote({
+                    placeholder: 'Product Usage',
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['para', ['ul', 'ol', 'paragraph']]
+                    ]
+                }).summernote('code', data.product_usage);
+
+                $('#product_features2').summernote({
+                    placeholder: 'Product Features',
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['para', ['ul', 'ol', 'paragraph']]
+                    ]
+                }).summernote('code', data.product_features);
+                // $('#product_features2').val(data.product_features);
                 $('#product_video_link2').val(data.product_video_link);
+                $('input.note-image-input').remove();
           },
 
       });
 });
-</script> -->
+</script>
 
 <!-- <script>
 $(function() {

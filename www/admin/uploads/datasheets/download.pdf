@@ -1,0 +1,483 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<</Length 1487>>
+stream
+0.20 w
+0 G
+q
+q BT 0 g 30.00 755.81 Td
+0 -24.00 Td
+0.000 g
+/F10 24.00 Tf (Html2Pdf) Tj
+ET Q
+q BT 0 g 30.00 714.73 Td
+0 -12.00 Td
+/F9 12.00 Tf (This demo uses Html2Canvas.js to render HTML. ) Tj
+0 -12.00 Td
+/F9 12.00 Tf (Instead of using an HTML canvas however, a canvas wrapper) Tj
+0 -12.00 Td
+/F9 12.00 Tf (using jsPDF is substituted. The ) Tj
+/F11 12.00 Tf (context2d) Tj
+/F9 12.00 Tf ( provided by the wrapper calls native PDF rendering methods.) Tj
+ET Q
+q BT 0 g 30.00 666.73 Td
+0 -12.00 Td
+/F9 12.00 Tf (A PDF of this page will be inserted into the right margin.) Tj
+ET Q
+q BT 0 g 30.00 639.79 Td
+0 -18.00 Td
+/F10 18.00 Tf (Colors) Tj
+ET Q
+q BT 0 g 30.00 606.85 Td
+0 -12.00 Td
+1.000 0.000 0.000 rg
+/F9 12.00 Tf (red) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 0.000 rg
+/F9 12.00 Tf (rgb\(0,255,0\)) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+/F9 12.00 Tf (rgba\(0,0,0,.5\)) Tj
+/F9 12.00 Tf ( ) Tj
+0.000 0.000 1.000 rg
+/F9 12.00 Tf (#0000FF) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 1.000 rg
+/F9 12.00 Tf (#0FF) Tj
+ET Q
+q BT 0 g 30.00 579.91 Td
+0 -18.00 Td
+0.000 g
+/F10 18.00 Tf (Text Alignment) Tj
+ET Q
+q BT 0 g 30.00 546.97 Td
+0 -12.00 Td
+/F9 12.00 Tf (left) Tj
+ET Q
+q BT 0 g 30.00 534.97 Td
+3385.46 -12.00 Td
+/F9 12.00 Tf (center) Tj
+ET Q
+q BT 0 g 30.00 522.97 Td
+6855.16 -12.00 Td
+/F9 12.00 Tf (right) Tj
+ET Q
+BT
+/F1 30 Tf
+34.5 TL
+0.157 g
+80.00 801.89 Td
+(Report Header Template) Tj
+ET
+2 J
+3.000 771.890 m 
+593.000 771.890 l
+S
+BT
+/F1 10 Tf
+11.5 TL
+0.157 g
+30.00 20.00 Td
+(Page 1 of 3) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<</Length 1183>>
+stream
+0.20 w
+0 G
+q BT 0 g 30.00 766.89 Td
+0 -24.00 Td
+/F10 24.00 Tf (Page Two) Tj
+ET Q
+q BT 0 g 30.00 725.81 Td
+0 -12.00 Td
+/F9 12.00 Tf (This demo uses Html2Canvas.js to render HTML. ) Tj
+0 -12.00 Td
+/F9 12.00 Tf (Instead of using an HTML canvas however, a canvas wrapper) Tj
+0 -12.00 Td
+/F9 12.00 Tf (using jsPDF is substituted. The ) Tj
+/F11 12.00 Tf (context2d) Tj
+/F9 12.00 Tf ( provided by the wrapper calls native PDF rendering methods.) Tj
+ET Q
+q BT 0 g 30.00 677.81 Td
+0 -12.00 Td
+/F9 12.00 Tf (A PDF of this page will be inserted into the right margin.) Tj
+ET Q
+q BT 0 g 30.00 650.87 Td
+0 -18.00 Td
+/F10 18.00 Tf (Colors) Tj
+ET Q
+q BT 0 g 30.00 617.93 Td
+0 -12.00 Td
+1.000 0.000 0.000 rg
+/F9 12.00 Tf (red) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 0.000 rg
+/F9 12.00 Tf (rgb\(0,255,0\)) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+/F9 12.00 Tf (rgba\(0,0,0,.5\)) Tj
+/F9 12.00 Tf ( ) Tj
+0.000 0.000 1.000 rg
+/F9 12.00 Tf (#0000FF) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 1.000 rg
+/F9 12.00 Tf (#0FF) Tj
+ET Q
+BT
+/F1 30 Tf
+34.5 TL
+0.157 g
+80.00 801.89 Td
+(Report Header Template) Tj
+ET
+2 J
+3.000 771.890 m 
+593.000 771.890 l
+S
+BT
+/F1 10 Tf
+11.5 TL
+0.157 g
+30.00 20.00 Td
+(Page 2 of 3) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<</Length 3373>>
+stream
+0.20 w
+0 G
+q BT 0 g 30.00 766.89 Td
+0 -24.00 Td
+0.000 g
+/F10 24.00 Tf (Yet Another Page) Tj
+ET Q
+q BT 0 g 30.00 726.81 Td
+0 -18.00 Td
+/F10 18.00 Tf (Text Alignment) Tj
+ET Q
+q BT 0 g 30.00 693.87 Td
+0 -12.00 Td
+/F9 12.00 Tf (left) Tj
+ET Q
+q BT 0 g 30.00 681.87 Td
+3385.46 -12.00 Td
+/F9 12.00 Tf (center) Tj
+ET Q
+q BT 0 g 30.00 669.87 Td
+6855.16 -12.00 Td
+/F9 12.00 Tf (right) Tj
+ET Q
+q BT 0 g 30.00 642.93 Td
+0 -18.00 Td
+/F10 18.00 Tf (Look here) Tj
+ET Q
+q BT 0 g 30.00 608.99 Td
+0 -12.00 Td
+/F9 12.00 Tf (This demo uses Html2Canvas.js to render HTML. ) Tj
+0 -12.00 Td
+/F9 12.00 Tf (Instead of using an HTML canvas however, a canvas wrapper) Tj
+0 -12.00 Td
+/F9 12.00 Tf (using jsPDF is substituted. The ) Tj
+/F11 12.00 Tf (context2d) Tj
+/F9 12.00 Tf ( provided by the wrapper calls native PDF rendering methods. This) Tj
+0 -12.00 Td
+/F9 12.00 Tf (demo uses Html2Canvas.js to render HTML. Instead of using an HTML canvas however, a canvas wrapper using) Tj
+0 -12.00 Td
+/F9 12.00 Tf (jsPDF is substituted. The ) Tj
+/F11 12.00 Tf (context2d) Tj
+/F9 12.00 Tf ( provided by the wrapper calls native PDF rendering methods.) Tj
+ET Q
+q BT 0 g 30.00 536.99 Td
+0 -12.00 Td
+/F9 12.00 Tf (A PDF of this page will be inserted into the right margin.) Tj
+ET Q
+q BT 0 g 30.00 510.05 Td
+0 -18.00 Td
+/F10 18.00 Tf (Colors) Tj
+ET Q
+q BT 0 g 30.00 477.11 Td
+0 -12.00 Td
+1.000 0.000 0.000 rg
+/F9 12.00 Tf (red) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 0.000 rg
+/F9 12.00 Tf (rgb\(0,255,0\)) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+/F9 12.00 Tf (rgba\(0,0,0,.5\)) Tj
+/F9 12.00 Tf ( ) Tj
+0.000 0.000 1.000 rg
+/F9 12.00 Tf (#0000FF) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 1.000 rg
+/F9 12.00 Tf (#0FF) Tj
+ET Q
+q BT 0 g 30.00 450.17 Td
+0 -18.00 Td
+0.000 g
+/F10 18.00 Tf (Text Alignment) Tj
+ET Q
+q BT 0 g 30.00 417.23 Td
+0 -12.00 Td
+/F9 12.00 Tf (left) Tj
+ET Q
+q BT 0 g 30.00 405.23 Td
+3385.46 -12.00 Td
+/F9 12.00 Tf (center) Tj
+ET Q
+q BT 0 g 30.00 393.23 Td
+6855.16 -12.00 Td
+/F9 12.00 Tf (right) Tj
+ET Q
+q BT 0 g 30.00 368.23 Td
+0 -12.00 Td
+/F9 12.00 Tf (This demo uses Html2Canvas.js to render HTML. ) Tj
+0 -12.00 Td
+/F9 12.00 Tf (Instead of using an HTML canvas however, a canvas wrapper) Tj
+0 -12.00 Td
+/F9 12.00 Tf (using jsPDF is substituted. The ) Tj
+/F11 12.00 Tf (context2d) Tj
+/F9 12.00 Tf ( provided by the wrapper calls native PDF rendering methods.) Tj
+ET Q
+q BT 0 g 30.00 320.23 Td
+0 -12.00 Td
+/F9 12.00 Tf (A PDF of this page will be inserted into the right margin.) Tj
+ET Q
+q BT 0 g 30.00 293.29 Td
+0 -18.00 Td
+/F10 18.00 Tf (Colors) Tj
+ET Q
+q BT 0 g 30.00 260.35 Td
+0 -12.00 Td
+1.000 0.000 0.000 rg
+/F9 12.00 Tf (red) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 0.000 rg
+/F9 12.00 Tf (rgb\(0,255,0\)) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+/F9 12.00 Tf (rgba\(0,0,0,.5\)) Tj
+/F9 12.00 Tf ( ) Tj
+0.000 0.000 1.000 rg
+/F9 12.00 Tf (#0000FF) Tj
+0.000 g
+/F9 12.00 Tf ( ) Tj
+0.000 1.000 1.000 rg
+/F9 12.00 Tf (#0FF) Tj
+ET Q
+q BT 0 g 30.00 233.41 Td
+0 -18.00 Td
+0.000 g
+/F10 18.00 Tf (Text Alignment) Tj
+ET Q
+q BT 0 g 30.00 200.47 Td
+0 -12.00 Td
+/F9 12.00 Tf (left) Tj
+ET Q
+q BT 0 g 30.00 188.47 Td
+3385.46 -12.00 Td
+/F9 12.00 Tf (center) Tj
+ET Q
+q BT 0 g 30.00 176.47 Td
+6855.16 -12.00 Td
+/F9 12.00 Tf (right) Tj
+ET Q
+Q
+BT
+/F1 30 Tf
+34.5 TL
+0.157 g
+80.00 801.89 Td
+(Report Header Template) Tj
+ET
+2 J
+3.000 771.890 m 
+593.000 771.890 l
+S
+BT
+/F1 10 Tf
+11.5 TL
+0.157 g
+30.00 20.00 Td
+(Page 3 of 3) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<</BaseFont/Helvetica/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+10 0 obj
+<</BaseFont/Helvetica-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+11 0 obj
+<</BaseFont/Helvetica-Oblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+12 0 obj
+<</BaseFont/Helvetica-BoldOblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+13 0 obj
+<</BaseFont/Courier/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+14 0 obj
+<</BaseFont/Courier-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+15 0 obj
+<</BaseFont/Courier-Oblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+16 0 obj
+<</BaseFont/Courier-BoldOblique/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+17 0 obj
+<</BaseFont/Times-Roman/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+18 0 obj
+<</BaseFont/Times-Bold/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+19 0 obj
+<</BaseFont/Times-Italic/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+20 0 obj
+<</BaseFont/Times-BoldItalic/Type/Font
+/Encoding/WinAnsiEncoding
+/Subtype/Type1>>
+endobj
+21 0 obj
+<</BaseFont/ZapfDingbats/Type/Font
+/Encoding/StandardEncoding
+/Subtype/Type1>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+22 0 obj
+<<
+/Producer (jsPDF 1.x-master)
+/CreationDate (D:20200331145117+05'30')
+>>
+endobj
+23 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000006529 00000 n 
+0000007839 00000 n 
+0000000009 00000 n 
+0000000118 00000 n 
+0000001655 00000 n 
+0000001764 00000 n 
+0000002997 00000 n 
+0000003106 00000 n 
+0000006598 00000 n 
+0000006688 00000 n 
+0000006784 00000 n 
+0000006883 00000 n 
+0000006986 00000 n 
+0000007075 00000 n 
+0000007169 00000 n 
+0000007266 00000 n 
+0000007367 00000 n 
+0000007460 00000 n 
+0000007552 00000 n 
+0000007646 00000 n 
+0000007744 00000 n 
+0000008079 00000 n 
+0000008170 00000 n 
+trailer
+<<
+/Size 24
+/Root 23 0 R
+/Info 22 0 R
+>>
+startxref
+8274
+%%EOF

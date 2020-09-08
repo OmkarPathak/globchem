@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `globechem_db`
 --
-CREATE DATABASE IF NOT EXISTS `globechem_db` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `globechem_db`;
+-- CREATE DATABASE IF NOT EXISTS `globechem_db` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+-- USE `globechem_db`;
 
 -- --------------------------------------------------------
 

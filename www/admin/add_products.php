@@ -23,14 +23,14 @@ function add_products()
         $category_id = 1;
     }
     if(isset($_POST["product_usage"])){
-        $product_usage = $_POST["product_usage"];
+        $product_usage = mysqli_real_escape_string($conn, $_POST["product_usage"]);
     }
     else{
         $product_usage = "";
     }
     
     if(isset($_POST["product_features"])){
-        $product_features = $_POST["product_features"];
+        $product_features = mysqli_real_escape_string($conn, $_POST["product_features"]);
     }
     else{
         $product_features = "";
@@ -78,7 +78,7 @@ function add_products()
                 // insert records in product table
                 $sql ="INSERT INTO products (product_name,category_id,product_desc,product_features,product_usage,product_dataset,product_video_link) VALUES ('$product_name','$category_id','$product_desc','$product_features','$product_usage','$file_name','$product_video_link')";
                     
-                // echo $sql;
+                echo $sql;
                 $result = mysqli_query($conn,$sql);
             }
         }
@@ -108,6 +108,7 @@ function add_products()
 
 
         print_r($_FILES['files']);
+        print_r($_FILES['files']['error']);
 
         // insert images into tbl_pictures
         // File upload configuration

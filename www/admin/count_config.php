@@ -34,7 +34,7 @@ require 'config.php';
                         <div class="x_content">
                             <br />
 
-                            <form action="add_count.php"  method="post"  class="form-label-left input_mask">
+                            <!-- <form action="add_count.php"  method="post"  class="form-label-left input_mask">
                                 <div class="col-sm-12 col-md-2 col-lg-2">
                                 </div>
 
@@ -60,7 +60,7 @@ require 'config.php';
                                  <div class="col-sm-12 col-md-2 col-lg-2">
                                 </div>
                             </form>
-
+ -->
 
                             <div class="clearfix"></div>
 
@@ -72,7 +72,7 @@ require 'config.php';
                                                 <th>Count For</th>
                                                 <th>Count</th>
                                                 <th></th>
-                                                <th></th>
+                                                <!-- <th></th> -->
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -93,7 +93,7 @@ require 'config.php';
                                                         <td>'.$row['count_name'].'</td>
                                                         <td>'.$row['count'].'</td>
                                                         <td><a href="edit_count.php?id='.$row['count_id'].'"><button type="button" name="edit" class="btn btn-primary edit_data"><i class="fa fa-pencil"></i></button></a></td>
-                                                        <td><a href="javascript:delete_id('.$row['count_id'].')"><button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button></a></td>
+                                                       <!-- <td><a href="javascript:delete_id('.$row['count_id'].')"><button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button></a></td> -->
                                                     </tr>';
                                                  
                                                 }

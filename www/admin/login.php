@@ -11,9 +11,13 @@ function login()
 
  
     $username = $_POST['username'];
-    $password =$_POST['password'];
+    $password = $_POST['password'];
 
-    $password = MD5('$password');
+    // echo $password;
+
+    $password = MD5($password);
+
+    // echo $password;
     
     $query =    "SELECT user_id, username
                 FROM user_credentials 

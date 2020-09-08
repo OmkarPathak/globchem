@@ -71,9 +71,11 @@ if(isset($_POST["btn_edit_products"]))
 
     // print_r($quantity_list);
     $sql ="UPDATE products SET product_name = '$product_name', product_desc = '$product_desc', category_id='$category_id',product_usage = '$product_usage',product_features = '$product_features',product_video_link = '$product_video_link'  WHERE product_id = '$product_id'";
+    // echo $sql;
     $result = mysqli_query($conn,$sql);
    // echo $collection_name;
     
+    // print_r($_FILES['files']);
 
     if($_FILES['files']['error'][0] != 4){
         $sql_5 ="DELETE FROM product_images WHERE product_id = '$product_id'";

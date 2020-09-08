@@ -51,5 +51,35 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('#product_desc').summernote({
+                    placeholder: 'Product Description',
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['para', ['ul', 'ol', 'paragraph']]
+                    ]
+                });
+
+                $('#product_usage').summernote({
+                    placeholder: 'Product Usage',
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['para', ['ul', 'ol', 'paragraph']]
+                    ]
+                });
+
+                $('#product_features').summernote({
+                    placeholder: 'Product Features',
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['para', ['ul', 'ol', 'paragraph']]
+                    ]
+                });
+
+                $('input.note-image-input').remove();
+            });
+        </script>
     </body>
 </html>
