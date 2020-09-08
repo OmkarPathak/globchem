@@ -119,7 +119,7 @@ $category = mysqli_query($conn, $sql);
 
         
         <!-- ======= Team Section ======= -->
-        <section id="team" class="team">
+        <section id="team" class="team" data-aos="fade-up" data-aos-delay="300">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -132,7 +132,7 @@ $category = mysqli_query($conn, $sql);
                     <?php
                         while ($row = mysqli_fetch_array($category))
                         {
-                            echo ' <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                            echo ' <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                                         <div class="member">
                                             <div class="member-img content">
                                                 <a href="product_details.php?id='.$row['category_id'].'">   
