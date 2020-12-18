@@ -49,8 +49,8 @@ $clients_logo = mysqli_query($conn, $sql);
                         <div class="carousel-container">
                             <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Globe Construction</span></h2>
-                                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                                <p class="animate__animated animate__fadeInUp">Globe Construction Chemicals was founded in 2015 is An ISO 9001:2015 certified company is a professionally managed young company engaged into manufacturing of construction chemicals. The company has its manufacturing unit located in Pune & Gujrat having advance-manufacturing process with stringent quality control.Globe is a leader in the delivery of tailored Constructive Solutions for virtually any type of construction project, combining high-quality products, expert technical support, customer service and innovation.</p>
+                                <a href="about.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -119,19 +119,15 @@ $clients_logo = mysqli_query($conn, $sql);
                         <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon"><i class="icofont-image"></i></div>
+                       
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                         <div class="icon"><i class="icofont-image"></i></div>
                         <h4 class="title"><a href="products.php">ADMIXTURE</a></h4>
                         <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                        <div class="icon"><i class="icofont-settings"></i></div>
-                        <h4 class="title"><a href="products.php">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                    </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                        <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                        <h4 class="title"><a href="products.php">Eiusmod Tempor</a></h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                        
                     </div>
                 </div>
             </div>

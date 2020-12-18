@@ -70,9 +70,9 @@ while($row = mysqli_fetch_array($product))
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Category</h2>
-                    <h3>Select a product <span>Category</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                    <h2>Product</h2>
+                    <h3>Check details of the <span>Product</span></h3>
+                    
                 </div>
 
                 <div class="row">
@@ -111,7 +111,9 @@ while($row = mysqli_fetch_array($product))
                             // {
                                 echo    '<h2>'.$product_name.'</h2>    
                                         <p class="description">'.$product_desc.'</p>
-                                        <h4 class="product_features">'.$product_features.'</h4>
+                                        <h3>Product Features</h3>
+                                        <h5 class="product_features">'.$product_features.'</h5>
+                                        <h3>Product Usage</h3>
                                         <h5 class="product_usage">'.$product_usage.'</h5> 
                                         <a href="admin/uploads/datasheets/'.$product_dataset.'" download="'.$product_dataset.'"><button class="btn"><i class="fa fa-download"></i>Download Datasheet</button></a>'; 
                             // }

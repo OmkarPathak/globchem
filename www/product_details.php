@@ -9,7 +9,7 @@ $category_id = $_GET['id'];
 $sql = "SELECT products.*,product_images.product_image_link
 		FROM products 
 		INNER JOIN product_images ON products.product_id = product_images.product_id
-		WHERE products.category_id = ".$category_id."";
+		WHERE products.category_id = ".$category_id." GROUP BY products.product_name";
 
 $products = mysqli_query($conn, $sql);
 ?>
@@ -51,9 +51,9 @@ $products = mysqli_query($conn, $sql);
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Category</h2>
-                    <h3>Select a product <span>Category</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                    <h2>Products</h2>
+                    <h3>Check all  <span>Products</span></h3>
+                    <p></p>
                 </div>
 
                 <div class="row">
@@ -75,7 +75,7 @@ $products = mysqli_query($conn, $sql);
     		                    			<a href="show_product.php?id='.$row['product_id'].'">  
     		                    				<h2>'.$row['product_name'].'</h2>
     		                    			</a>	
-    				                        <!--<div class="description">'.$row['product_desc'].'</div>-->
+    				                        <div class="description">'.$row['product_desc'].'</div>
     				                        
     				                        <a href="admin/uploads/datasheets/'.$row['product_dataset'].'" download="'.$row['product_dataset'].'"><button class="btn"><i class="fa fa-download"></i>Download Datasheet</button></a> 
                                         </center>    
